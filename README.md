@@ -30,6 +30,6 @@ The dataset to train the model was built from scratch using 4000+ images , compr
 1. Making the entire application easily installable as a Windows desktop application, thereby significantly improving accessibility and simplifying the setup process.
 2. Incorporate a more robust reporting mechanism. So that any detection can be reported to parents or guardians.
 3. Train the model to also detect harmful content in thumbnails of videos
-4. Making the tool work for Android (on the way ;) )
+4. Making the tool work on Android (on the way ;) )
 
 
