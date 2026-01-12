@@ -5,9 +5,8 @@ import base64
 from ultralytics import YOLO
 
 app = Flask(__name__)
-#model = YOLO(r"D:\dlcv\rtdet_l\kaggle\working\rtdetr_train\experiment1\weights\best.pt")
-#model = YOLO(r"D:\dlcv\assignment\L7\yolo_8x_penis\kaggle\working\runs\detect\train\weights\best.pt")
-model= YOLO(r"D:\dlcv\assignment\L5\yolo_8x_new\kaggle\working\runs\detect\train\weights\best.pt")
+#path to weights
+model= YOLO(r"")
 
 @app.route('/detect', methods=['POST'])
 def detect():
@@ -48,3 +47,4 @@ def detect():
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
+
